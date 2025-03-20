@@ -20,7 +20,7 @@ from nltk.corpus import stopwords
 from sklearn.metrics.pairwise import cosine_similarity
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyANmqxIG22VDP2lLV9FoynMy7_R5KQMJJ0")
+genai.configure(api_key="")
 
 # Initialize Tagger
 tagger = PerceptronTagger(load=True)
